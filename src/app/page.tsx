@@ -27,7 +27,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const skillGroups: Record<string, string[]> = {
   Frontend: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML", "CSS"],
-  Backend: ["Node.js", "Express.js", "Python"],
+  Backend: ["Node.js", "Express.js", "Django"],
   Database: ["MongoDB", "PostgreSQL", "MySQL" ],
   Tools: ["Git", "VS Code", "Postman", "Linux", "Figma", "Vercel","Canva", "WordPress","MS Office"],
   Programming: ["C", "C++", "C#"],
