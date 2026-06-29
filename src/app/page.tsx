@@ -372,21 +372,34 @@ CSE undergraduate with experience in Operations, IT and Digital Marketing, Build
                     Resume
                   </a>
                   {[
-                    { icon: Mail, label: "Email", href: "mailto:ashiqurrashidifti233@gmail.com" },
-                    { icon: FaGithub, label: "GitHub", href: "https://github.com/ifti-07" },
-                    { icon: FaLinkedin, label: "LinkedIn", href: "https://linkedin.com/in/ashiq-ur-rashid-ifti" },
-                  ].map(({ icon: Icon, label, href }) => (
-                    <a
-                      key={label}
-                      href={href}
-                      target={href.startsWith("http") ? "_blank" : undefined}
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-4 py-2 min-h-[40px] rounded-lg bg-white dark:bg-[#1e293b] border border-slate-200 dark:border-white/[0.08] text-slate-700 dark:text-slate-300 text-xs font-semibold hover:bg-slate-50 dark:hover:bg-[#263347] transition-colors duration-150 shadow-sm"
-                    >
-                      <Icon className="w-3.5 h-3.5" />
-                      {label}
-                    </a>
-                  ))}
+                            {
+                              icon: Mail,
+                              label: "Email",
+                              href: "https://mail.google.com/mail/?view=cm&fs=1&to=ashiqurrashidifti233@gmail.com&su=Job%20Opportunity&body=Hello%20Ashiq,%0A%0AI%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you.%0A%0ABest%20regards,",
+                            },
+                            {
+                              icon: FaGithub,
+                              label: "GitHub",
+                              href: "https://github.com/ifti-07",
+                            },
+                            {
+                              icon: FaLinkedin,
+                              label: "LinkedIn",
+                              href: "https://linkedin.com/in/ashiq-ur-rashid-ifti",
+                            },
+                          ].map(({ icon: Icon, label, href }) => (
+                            <a
+                              key={label}
+                              href={href}
+                              onClick={() => console.log("Clicked:", href)}
+                              target={href.startsWith("http") ? "_blank" : undefined}
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1.5 px-4 py-2 min-h-[40px] rounded-lg bg-white dark:bg-[#1e293b] border border-slate-200 dark:border-white/[0.08] text-slate-700 dark:text-slate-300 text-xs font-semibold hover:bg-slate-50 dark:hover:bg-[#263347] transition-colors duration-150 shadow-sm"
+                            >
+                              <Icon className="w-3.5 h-3.5" />
+                              {label}
+                            </a>
+                          ))}
                 </div>
               </div>
             </div>
@@ -837,7 +850,7 @@ I am passionate about solving problems at the intersection of technology and bus
                 <p className={sectionLabel}>Contact</p>
                 <div className="space-y-2.5">
                   {[
-                    { Icon: Mail, label: "Email", value: "ashiqurrashidifti233@gmail.com", href: "mailto:ashiqurrashidifti233@gmail.com" },
+                    { Icon: Mail, label: "Email", value: "ashiqurrashidifti233@gmail.com", href: "https://mail.google.com/mail/?view=cm&fs=1&to=ashiqurrashidifti233@gmail.com&su=Job%20Opportunity&body=Hello%20Ashiq,%0A%0AI%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you.%0A%0ABest%20regards," },
                     { Icon: FaGithub, label: "GitHub", value: "github.com/ifti-07", href: "https://github.com/ifti-07" },
                     { Icon: FaLinkedin, label: "LinkedIn", value: "linkedin.com/in/ashiq-ur-rashid-ifti", href: "https://linkedin.com/in/ashiq-ur-rashid-ifti" },
                     { Icon: Globe, label: "Portfolio", value: "Ashiq Ur Rashid Ifti", href: "#" },
