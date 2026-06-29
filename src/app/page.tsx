@@ -210,10 +210,10 @@ const projects = [
 ];
 
 const certifications = [
-  { name: "NSDA Web Design Level-3", issuer: "Government of the People's Republic of Bangladesh", year: "2026" },
-  { name: "NSDA Web Design & Development For Freelancing level-4", issuer: "Government of the People's Republic of Bangladesh", year: "2026" },
-  { name: "NSDA Web Application Development With Python level-5", issuer: "Government of the People's Republic of Bangladesh", year: "2026" },
-  { name: "Digital Marketing", issuer: "NextgenIt", year: "2023" },
+  { name: "Web Design Level-3 (NSDA)", issuer: "Government of the People's Republic of Bangladesh", year: "2026" },
+  { name: "Web Design & Development For Freelancing level-4 (NSDA)", issuer: "Government of the People's Republic of Bangladesh", year: "2026" },
+  { name: "Web Application Development With Python level-5 (NSDA)", issuer: "Government of the People's Republic of Bangladesh", year: "2026" },
+  { name: "Digital Marketing", issuer: "NextgenIT", year: "2023" },
   { name: "Graphic Design Coordinator", issuer: "Hult Prize At IUBAT", year: "2024,2025" },
 ];
 
