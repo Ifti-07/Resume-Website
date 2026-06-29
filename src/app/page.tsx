@@ -392,7 +392,7 @@ CSE undergraduate with experience in Operations, IT and Digital Marketing, Build
             </div>
           </div>
 
-          {/* ── Two-column grid ───────────────────────────────────────────── */}
+          {/*Two-column grid*/}
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-4 items-start">
             {/* LEFT */}
             <div className="space-y-4">
