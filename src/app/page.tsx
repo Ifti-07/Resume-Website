@@ -201,8 +201,8 @@ const projects = [
    
   },
   {
-    name: "Ashiq Ur Rashid Ifti Resume",
-    description: "Responsive frontend for ATS-friendly resume website",
+    name: "Resume Website",
+    description: "Responsive frontend with action button and  ATS-friendly resume website",
     stack: ["Next.js","Tailwind CSS"],
     color: "violet" as const,
     github: "https://github.com/Ifti-07/Resume-Website",
