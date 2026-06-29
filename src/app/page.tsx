@@ -373,7 +373,7 @@ CSE undergraduate with experience in Operations, IT and Digital Marketing, Build
                   </a>
                   {[
                     { icon: Mail, label: "Email", href: "mailto:ashiqurrashidifti233@gmail.com" },
-                    { icon: FaGithub, label: "GitHub", href: "https://github.com/ifti-o7" },
+                    { icon: FaGithub, label: "GitHub", href: "https://github.com/ifti-07" },
                     { icon: FaLinkedin, label: "LinkedIn", href: "https://linkedin.com/in/ashiq-ur-rashid-ifti" },
                   ].map(({ icon: Icon, label, href }) => (
                     <a
