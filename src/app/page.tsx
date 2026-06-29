@@ -323,7 +323,7 @@ export default function App() {
               <div className="relative flex-shrink-0">
   <div className="w-[72px] h-[72px] md:w-[88px] md:h-[88px] rounded-2xl overflow-hidden shadow-lg shadow-indigo-500/25 ring-2 ring-white dark:ring-slate-800">
     <Image
-      src="/profile.png"
+      src="/image/profile.png"
       alt="Ashiq Ur Rashid Ifti"
       width={88}
       height={88}
