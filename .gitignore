@@ -42,3 +42,6 @@ next-env.d.ts
 
 # Ignore profile image
 public/Profile.png
+
+.AGENTS.md
+.CLAUDE.md
