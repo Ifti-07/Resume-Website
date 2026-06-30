@@ -187,7 +187,7 @@ const projects = [
     description:
       "Full-stack clothing e-commerce platform...",
     stack: ["React", "MongoDB", "Node.js", "Express"],
-    color: "violet" as const,
+    color:  "amber" as const,
     github: "https://github.com/Ifti-07/Amirjan-hometex",
   
   },
@@ -196,16 +196,18 @@ const projects = [
     description:
       "Full-stack task management application...",
     stack: ["React", "MongoDB", "Node.js", "Express"],
-    color: "amber" as const,
+    color: "violet" as const,
     github: "https://github.com/Ifti-07/Todo-App",
    
   },
-  {
-    name: "Resume Website",
-    description: "Responsive frontend with action button and  ATS-friendly resume website",
-    stack: ["Next.js","Tailwind CSS"],
-    color: "violet" as const,
-    github: "https://github.com/Ifti-07/Resume-Website",
+  
+   {
+  name: "Resume Website",
+  description:
+    "Responsive frontend with action button and ATS-friendly resume website",
+  stack: ["Next.js", "Tailwind CSS"],
+  color: "sky" as const,
+  github: "https://github.com/Ifti-07/Resume-Website",
 }
 ];
 
@@ -246,6 +248,11 @@ const projectPalette = {
     bar: "bg-amber-500",
     badge: "bg-amber-50 text-amber-700 dark:bg-amber-950/70 dark:text-amber-300",
     dot: "bg-amber-500",
+  },
+  sky: {
+    bar: "bg-sky-500",
+    badge: "bg-sky-50 text-sky-700 dark:bg-sky-950/70 dark:text-sky-300",
+    dot: "bg-sky-500",
   },
 };
 
